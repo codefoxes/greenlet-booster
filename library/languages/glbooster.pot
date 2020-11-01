@@ -1,0 +1,103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Greenlet Booster\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-01 10:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.6-beta2-49470"
+
+#: booster.php:64
+msgid "View Greenlet settings"
+msgstr ""
+
+#: booster.php:64
+msgid "Settings"
+msgstr ""
+
+#: library/class-importer.php:63
+msgid "You don't have any options to export. Try saving your options first."
+msgstr ""
+
+#: library/class-importer.php:70
+msgid "Import / Export Theme Settings"
+msgstr ""
+
+#: library/class-importer.php:74
+msgid "Export Settings"
+msgstr ""
+
+#: library/class-importer.php:77
+msgid "Copy the contents to export."
+msgstr ""
+
+#: library/class-importer.php:81 library/class-importer.php:86
+msgid "Import Settings"
+msgstr ""
+
+#: library/class-importer.php:84
+msgid "Paste the contents to import."
+msgstr ""
+
+#: library/class-importer.php:94
+msgid "Import Settings successful. Reload page to get imported settings."
+msgstr ""
+
+#: library/class-importer.php:95
+msgid "Import successful. Your settings and Import settings are same!!"
+msgstr ""
+
+#: library/class-importer.php:96
+msgid "Sorry. Import Failed. Please check the code."
+msgstr ""
+
+#: library/class-importer.php:97
+msgid "There is nothing to import!"
+msgstr ""
+
+#: library/class-performance.php:54
+msgid "Disable WP Emojis"
+msgstr ""
+
+#: library/class-performance.php:55
+msgid "Posts with emojis may break, disable with caution."
+msgstr ""
+
+#: library/class-performance.php:68
+msgid "Disable WP Embed Scripts"
+msgstr ""
+
+#: library/class-performance.php:69
+msgid ""
+"Embedding third party WordPress site's posts may break, disable with caution."
+msgstr ""
+
+#. Name of the plugin
+msgid "Greenlet Booster"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"An amazing companion plugin for Greenlet theme to add multiple extra "
+"functionalities."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://greenletwp.com/booster"
+msgstr ""
+
+#. Author of the plugin
+msgid "Greenlet Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://greenletwp.com/about/"
+msgstr ""
