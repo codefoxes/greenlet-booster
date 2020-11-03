@@ -25,11 +25,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'BOOSTER_VERSION', '1.0.0' );
-define( 'BOOSTER_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'BOOSTER_LIBRARY_DIR', BOOSTER_PLUGIN_DIR . '/library' );
+define( 'GREENLET_BOOSTER_VERSION', '1.0.0' );
+define( 'GREENLET_BOOSTER_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'GREENLET_BOOSTER_LIBRARY_DIR', GREENLET_BOOSTER_PLUGIN_DIR . '/library' );
 
-define( 'BOOSTER_ASSETS_URL', plugins_url( '/assets', __FILE__ ) );
+define( 'GREENLET_BOOSTER_ASSETS_URL', plugins_url( '/assets', __FILE__ ) );
 
 if ( ! function_exists( 'greenlet_load_booster' ) ) {
 	/**
@@ -44,9 +44,9 @@ if ( ! function_exists( 'greenlet_load_booster' ) ) {
 
 		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'greenlet_booster_action_links' );
 
-		require_once BOOSTER_LIBRARY_DIR . '/class-performance.php';
-		require_once BOOSTER_LIBRARY_DIR . '/class-seo.php';
-		require_once BOOSTER_LIBRARY_DIR . '/class-importer.php';
+		require_once GREENLET_BOOSTER_LIBRARY_DIR . '/class-performance.php';
+		require_once GREENLET_BOOSTER_LIBRARY_DIR . '/class-seo.php';
+		require_once GREENLET_BOOSTER_LIBRARY_DIR . '/class-importer.php';
 	}
 	greenlet_load_booster();
 }

@@ -46,7 +46,7 @@ class Importer {
 			return;
 		}
 
-		wp_enqueue_script( 'booster-options', BOOSTER_ASSETS_URL . '/js/options.js', array( 'greenlet-options' ), GREENLET_VERSION, true );
+		wp_enqueue_script( 'booster-options', GREENLET_BOOSTER_ASSETS_URL . '/js/options.js', array( 'greenlet-options' ), GREENLET_BOOSTER_VERSION, true );
 	}
 
 	/**
