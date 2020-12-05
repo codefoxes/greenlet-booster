@@ -73,7 +73,9 @@ class Importer {
 					<div class="col-6 col-impex export">
 						<div class="sub-heading"><?php esc_html_e( 'Export Settings', 'glbooster' ); ?></div>
 						<div class="export-option">
-							<textarea rows="8" readonly><?php echo esc_html( $val ); ?></textarea>
+							<textarea id="export-content" rows="8" readonly><?php echo esc_html( $val ); ?></textarea>
+							<button type="button" id="copy-export"><span class="dashicons dashicons-admin-page"></span></button>
+							<div class="message copy-success"><?php esc_html_e( 'Copied to clipboard.', 'glbooster' ); ?></div>
 							<div class="explain"><?php esc_html_e( 'Copy the contents to export.', 'glbooster' ); ?></div>
 						</div>
 					</div>
@@ -96,6 +98,35 @@ class Importer {
 					<div class="message error import-error"><?php esc_html_e( 'Sorry. Import Failed. Please check the code.', 'glbooster' ); ?></div>
 					<div class="message default import-default"><?php esc_html_e( 'There is nothing to import!', 'glbooster' ); ?></div>
 				</div>
+				<style>
+					.export-option {
+						position: relative;
+					}
+					#copy-export {
+						color: #9199a1;
+						position: absolute;
+						top: 1px;
+						right: 1px;
+						background: #f9f9f9;
+						border: 1px solid #c7ccd1;
+						padding: 3px 1px 3px 4px;
+						border-radius: 3px;
+						cursor: pointer;
+					}
+					#copy-export .dashicons {
+						font-size: 18px;
+						width: 18px;
+						height: 18px;
+						pointer-events: none;
+					}
+					#greenlet-options .message.copy-success {
+						bottom: 103%;
+						width: fit-content;
+						right: 0;
+						color: #444;
+						background: none;
+					}
+				</style>
 			</div>
 		</div>
 		<?php
