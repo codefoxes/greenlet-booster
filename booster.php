@@ -4,7 +4,7 @@
  * Description: An amazing companion plugin for Greenlet theme to add multiple extra functionalities.
  * Plugin URI: https://greenletwp.com/booster
  * Author: Greenlet Team
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: https://greenletwp.com/about/
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GREENLET_BOOSTER_VERSION', '1.0.0' );
+define( 'GREENLET_BOOSTER_VERSION', '1.0.1' );
 define( 'GREENLET_BOOSTER_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GREENLET_BOOSTER_LIBRARY_DIR', GREENLET_BOOSTER_PLUGIN_DIR . '/library' );
 

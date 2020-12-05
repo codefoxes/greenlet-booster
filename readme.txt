@@ -4,7 +4,7 @@ Donate link: https://greenletwp.com/pro/
 Tags: SEO, Import, Export, Greenlet, Embed, Performance, Speed
 Requires at least: 5.0
 Tested up to: 5.5.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,10 @@ Features include:
 No. Greenlet theme works without this plugin. But we recommend to install this plugin to add more options to the theme as well as improve performance.
 
 == Changelog ==
+
+= 1.0.1 =
+* Greenlet 2.2.0 compatibility
+* Export copy button
 
 = 1.0 =
 * Initial release
