@@ -1,5 +1,5 @@
 === Greenlet Booster ===
-Contributors: greenlet
+Contributors: greenlet, karthikbhatb
 Donate link: https://greenletwp.com/pro/
 Tags: SEO, Import, Export, Greenlet, Embed, Performance, Speed
 Requires at least: 5.0
